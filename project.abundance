@@ -7,7 +7,7 @@
     "ioValues": [
         {
             "name": "Number of Bumps",
-            "ioValue": 10
+            "ioValue": 20
         },
         {
             "name": "Thickness",
@@ -44,7 +44,7 @@
                 },
                 {
                     "name": "numBumps",
-                    "ioValue": 10
+                    "ioValue": 20
                 }
             ],
             "description": "Defines a Replicad code block.",
