@@ -70,36 +70,6 @@
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
             "type": "number"
-        },
-        {
-            "atomType": "Export",
-            "name": "Export",
-            "x": 0.6547619047619048,
-            "y": 0.6852367688022285,
-            "uniqueID": 1746926442070,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1746923156570
-                },
-                {
-                    "name": "Resolution (dpi)",
-                    "ioValue": 96
-                },
-                {
-                    "name": "Part Name",
-                    "ioValue": "Corrugated-Roofing-Circle"
-                },
-                {
-                    "name": "File Type",
-                    "ioValue": "STL"
-                }
-            ],
-            "description": "Export Atom, let's you choose a type of file to Export.",
-            "type": "STL",
-            "resolution": 96,
-            "importIndex": 0,
-            "partName": "Corrugated-Roofing-Circle"
         }
     ],
     "allConnectors": [
@@ -109,13 +79,6 @@
             "ap2Primary": false,
             "ap1ID": 1746923156570,
             "ap2ID": 1746923153015
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1746923156570,
-            "ap2ID": 1746926442070
         },
         {
             "ap1Name": "number or geometry",
